@@ -1,4 +1,4 @@
-<?=$this->extend('template');?>
+<?=$this->extend('blog/template');?>
 <?=$this->section('mycontent');?>
 
 <!-- ======= Hero Slider Section ======= -->

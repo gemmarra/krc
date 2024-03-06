@@ -6,7 +6,7 @@ class Home extends BaseController
 {
     public function index(): string
     {
-        return view('dashboard');
+        return view('blog/homepage');
     }
 
     public function singlepost()

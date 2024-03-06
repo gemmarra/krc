@@ -2,65 +2,57 @@
 <html lang="en">
 
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="Responsive Admin &amp; Dashboard Template based on Bootstrap 5">
-	<meta name="author" content="AdminKit">
-	<meta name="keywords" content="adminkit, bootstrap, bootstrap 5, admin, dashboard, template, responsive, css, sass, html, theme, front-end, ui kit, web">
-
-	<link rel="preconnect" href="https://fonts.gstatic.com">
-	<link rel="shortcut icon" href="img/icons/icon-48x48.png" />
-
-	<link rel="canonical" href="https://demo-basic.adminkit.io/pages-sign-in.html" />
-
-	<title>Sign In | AdminKit Demo</title>
-
-	<link href="<?=base_url('adminkit/static/css/app.css');?>" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Spica Admin</title>
+  <!-- base:css -->
+  <link rel="stylesheet" href="<?=base_url('admin/template/vendors/mdi/css/materialdesignicons.min.css');?>">
+  <link rel="stylesheet" href="<?=base_url('admin/template/vendors/css/vendor.bundle.base.css');?>">
+  <link rel="stylesheet" href="<?=base_url('admin/template/css/style.css');?>">
+<link rel="shortcut icon"href="<?=base_url('admin/template/images/favicon.png');?>" />
 </head>
 
 <body>
-	<main class="d-flex w-100">
-		<div class="container d-flex flex-column">
-			<div class="row vh-100">
-				<div class="col-sm-10 col-md-8 col-lg-6 col-xl-5 mx-auto d-table h-100">
-					<div class="d-table-cell align-middle">
-
-						<div class="text-center mt-4">
-							<h1 class="h2">Welcome back!</h1>
-							<p class="lead">
-								Sign in to your account to continue
-							</p>
-						</div>
-
-						<div class="card">
-							<div class="card-body">
-								<div class="m-sm-3">
-									<form>
-										<div class="mb-3">
-											<label class="form-label">Username</label>
-											<input class="form-control form-control-lg" type="text" name="username" placeholder="Enter your username" />
-										</div>
-										<div class="mb-3">
-											<label class="form-label">Password</label>
-											<input class="form-control form-control-lg" type="password" name="password" placeholder="Enter your password" />
-										</div>
-										<div class="d-grid gap-2 mt-3">
-											<a href="index.html" class="btn btn-lg btn-primary">Sign in</a>
-										</div>
-									</form>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</main>
-
-	<script src="<?=base_url('adminkit/static/js/app.js');?>"></script>
-
+<div class="container-scroller d-flex">
+    <div class="container-fluid page-body-wrapper full-page-wrapper d-flex">
+      <div class="content-wrapper d-flex align-items-center auth px-0">
+        <div class="row w-100 mx-0">
+          <div class="col-lg-4 mx-auto">
+            <div class="auth-form-light text-left py-5 px-4 px-sm-5">
+              <div class="brand-logo">
+                <!-- <img src="../../images/logo-dark.svg" alt="logo"> -->
+              </div>
+              <h4>Hello! Welcome back!</h4>
+              <h6 class="font-weight-light">Sign in to continue.</h6>
+              <form class="pt-3">
+                <div class="form-group">
+                  <input type="email" class="form-control form-control-lg" id="exampleInputEmail1" placeholder="Username">
+                </div>
+                <div class="form-group">
+                  <input type="password" class="form-control form-control-lg" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="mt-3">
+                  <a class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" href="../../index.html">SIGN IN</a>
+                </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- content-wrapper ends -->
+    </div>
+    <!-- page-body-wrapper ends -->
+  </div>
+  <!-- container-scroller -->
+  <!-- base:js -->
+  <script src="<?=base_url('admin/template/vendors/js/vendor.bundle.base.js');?>"></script>
+  <script src="<?=base_url('admin/template/js/jquery.cookie.js');?>" type="text/javascript"></script>
+  <script src="<?=base_url('admin/template/js/off-canvas.js');?>"></script>
+  <script src="<?=base_url('admin/template/js/hoverable-collapse.js');?>"></script>
+  <script src="<?=base_url('admin/template/js/template.js');?>"></script>
+  <!-- endinject -->
 </body>
 
 </html>

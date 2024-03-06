@@ -11,4 +11,5 @@ $routes->get('/login', 'Auth::login');
 
 // Manage
 $routes->get('/dashboard', 'Manage::index');
+$routes->get('/write_article', 'Manage::write_article');
 

@@ -1,4 +1,4 @@
-<?=$this->extend('template');?>
+<?=$this->extend('blog/template');?>
 <?=$this->section('mycontent');?>
 <section class="single-post-content">
       <div class="container">

@@ -11,4 +11,9 @@ class Manage extends BaseController
     {
         return view('manage/dashboard');
     }
+
+    public function write_article()
+    {
+        return view('manage/write_article');
+    }
 }
